@@ -10,6 +10,7 @@ for i in range(K):
 
     if number != 0:
         stack_list.append(number)
+        
     else:
         stack_list.pop()
 
