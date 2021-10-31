@@ -81,7 +81,7 @@ while True:
         time += 1
         break
 
-    # 뱀의 방향 전환 처리
+    # 뱀의 방향 전환 명령 처리
     if len(moves) != 0:
         # 지금이 방향을 전환할 타이밍이라면
         if moves[0][0] == time:
