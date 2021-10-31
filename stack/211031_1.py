@@ -1,3 +1,5 @@
+# 백준 문제 10773번 : 제로
+# Memory 29980KB / Time 112ms
 from sys import stdin
 
 K = int(stdin.readline())
