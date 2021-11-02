@@ -47,7 +47,3 @@ def solution(gems):
     candidate.sort(key=lambda x: x[1] - x[0])
     
     return candidate[0]
-
-gems = ["DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"]
-
-print(solution(gems))
